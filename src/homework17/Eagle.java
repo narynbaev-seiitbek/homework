@@ -16,6 +16,8 @@ public class Eagle extends Animal{
         System.out.println("Eagle is flying");
     }
 
+    //need to define attack() method!
+    
     @Override
     public void eat() {
         System.out.println("Eagle is eating");
