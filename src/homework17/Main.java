@@ -11,8 +11,9 @@ public class Main {
         Animal eagle = new Eagle(7, "Grey", 250);
         Animal turtle = new Turtle(35, "Brown", 85);
         Animal turtle2 = new Turtle(25, "White-Brown", 45);
+        Animal turtle3 = new Turtle(25, "White", 45);
 
-        Animal[] animals = {turtle, eagle, shark, turtle2};
+        Animal[] animals = {turtle, eagle, shark, turtle2,turtle3};
 
         //this is your code!!
 
@@ -53,7 +54,7 @@ public class Main {
                 arrayForSharks.add(shark);
             } else if (animal instanceof Turtle) {
                 ((Turtle) animal).swim();
-                arrayForTurtles.add(turtle);
+                arrayForTurtles.add(turtle3);
             } else if (animal instanceof Eagle) {
                 ((Eagle) animal).fly();
                 arrayForEagles.add(eagle);
